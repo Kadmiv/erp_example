@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="co_share_erp" transaction-type="RESOURCE_LOCAL">
+
+        <class>com.kadmiv.coshare_erp.entity.user.User</class>
+        <class>com.kadmiv.coshare_erp.entity.company.Company</class>
+        <class>com.kadmiv.coshare_erp.entity.card.Card</class>
+    </persistence-unit>
+</persistence>
